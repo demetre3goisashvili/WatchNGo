@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #030303;
+    overflow-x: hidden;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#logo{
+    border-radius: 50%;
+    width: 60px;
+    position: relative;
+    left: 400px;
+    top: 20px;
+}
+
+
+
+.cart i {
+    color: white;
+    transform: scale(2);
+    position: relative;
+    left: 850px;
+    transition: 0.15s;
+}
+
+.sherozia {
+    width: 65px;
+    height: 65px;
+    background-image: url("/Photos/guram-sherozia_w_h.jpeg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 840px;
+    left: 1730px;
+
+
+}
+
+
+
+
+.cart i:hover {
+    transform: scale(2.3)
+}
+
+
+
+header{
+    box-shadow: 2px 3px 2px gray;
+    border-radius: 3px;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+
+
+.header-a-1{
+    position: relative;
+    right: 400px;
+    margin-left:100px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(192, 144, 24);
+    transition: 0.15s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-a-2{
+    position: relative;
+    left: 300px;
+    margin-right:100px ;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(192, 144, 24);
+    transition: 0.15s;
+}
+
+nav button {
+    border: none;
+    background-color:  hsla(0, 0%, 0%, 0);
+    color: rgb(192, 144, 24);
+    font-size: 20px;
+    transition: 0.15s;
+    position: relative;
+
+}
+
+nav button:hover {
+    
+    background-color: rgb(192, 144, 24);
+    color: black;
+    transform: scale(1.1);
+}
+
+#rolex {
+    position: relative;
+    right: 100px;
+    top: 400px;
+    left: 65px;
+    height: 500px;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  
+   
+    
+
+}
+
+.rolexa{   
+    height: 380px;
+    width: 370px;      
+}
+
+.rolexi{
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+#rolex-h1{
+    color: white;
+    position: relative;
+    top: 280px;
+    left: 880px;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+
+.rolexii {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+
+
+#roverlay{
+    
+}
+
+#roverlay:hover{
+    background-color: gray;
+    z-index: 1;
+}
+
+::-webkit-scrollbar {
+    height: 16px;              
+    width: 8px;               
+    border: 1px solid #7f7e7e;
+  }
+
+footer {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    align-items: end;
+    margin-top: 1200px;
+    
+}
+
+footer a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+
+}
+
+footer a:hover{
+    color: goldenrod;
+}
+
+footer h2{
+    margin: 10px;
+    font-size: 24px;
+}
+
+h2 span{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+#sub-desc{
+    color: white;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    
+#sub-price{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+#span-sale{
+    text-decoration: line-through;
+}
+
+#date-desc{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#date-price{
+    color: white;
+    position: relative;
+    top: 40px;
+    left:70px;
+}
+
+#day-desc{
+    color: white;
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+}
+
+#day-price{
+    color: white;
+    position: relative;
+    top: 40px;
+    left:90px;
+}
+
+#timex {
+    position: relative;
+    right: 100px;
+    top: 700px;
+    left: 65px;
+    height: 500px;
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+  
+   
+    
+
+}
+
+.timexa{   
+    height: 380px;
+    width: 370px;      
+}
+
+.timexi{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    
+}
+
+#timex-h1{
+    color: white;
+    position: relative;
+    top: 580px;
+    left: 880px;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+
+.timexii {
+    position: relative;
+    top: 12px;
+    right: 30px;
+}
+
+#ygdiamond-desc{
+    color: white;
+    position: relative;
+    bottom: 25px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+}
+
+#ygdiamond-price{
+        color: white;
+        position: relative;
+        bottom: 10px;
+        left: 90px;
+}
+
+.ygdiamond{
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+
+#gold-desc{
+    color: white;
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#gold-price{
+    color: white;
+    position: relative;
+    top: 40px;
+    left: 65px;
+}
+
+.timexi{
+    position: relative;
+    left: -80px;
+}
+
+#cheap-desc{
+    color: white;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cheap-price{
+    color: white;
+    position: relative;
+    top: 75px;
+    left: 65px;
+}
+
+
+#plat-desc{
+    color: white;
+    position: relative;
+    top: 55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+}
+
+#plat-price{
+    color: white;
+    position: relative;
+    top: 75px;
+    left: 95px;
+}
+
+.platinum{
+    position: relative;
+    left: -30px;
+    
+}
+
+.silver {
+
+    width: 450px;
+    position: relative;
+    right: 50px;
+
+}
+
+
+
+#silver-desc{
+    color: white;
+    position: relative;
+    top: 55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+}
+
+#silver-price{
+    color: white;
+    position: relative;
+    top: 75px;
+    left: 110px;
+}
+
+.timexa a {
+    text-decoration: none;
+}
+
+.rolexa a {
+    text-decoration: none;
+}
+
+
+#ro-a1{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ro-a2{
+    position: relative;
+    top: 80px;
+    left: 90px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ro-a3{
+    position: relative;
+    top: 25px;
+    left: 120px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ro-a4{
+    position: relative;
+    top: 80px;
+    left: 120px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+
+
+#ti-a1{
+    position: relative;
+    top: 85px;
+    left: 90px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ti-a2{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ti-a3{
+    position: relative;
+    top: 120px;
+    left: 120px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+#ti-a4{
+    position: relative;
+    top: 115px;
+    left: 120px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px white solid;
+    border-radius: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.25s;
+}
+
+
+#ro-a1:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ro-a2:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ro-a3:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ro-a4:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ti-a1:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ti-a2:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ti-a3:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+#ti-a4:hover{
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: 0.25s;
+    border: 2px goldenrod solid;
+}
+
+
+
