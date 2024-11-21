@@ -51,6 +51,58 @@ for (let i = 0; i < slides3.length; i++) {
     });
 }
 
+let slides4 = document.getElementsByClassName("timexi");
+
+for (let i = 0; i < slides4.length; i++) {
+    let originalSrc = slides4[i].src
+    slides4[i].addEventListener("mouseover", function() {
+        slides4[i].src = "/Photos/timhover1.png";
+    });
+    slides4[i].addEventListener("mouseout", function(){
+        slides4[i].src = originalSrc
+    })
+
+}
+
+let slides5 = document.getElementsByClassName("timexii");
+
+for (let i = 0; i < slides5.length; i++) {
+    let originalSrc = slides5[i].src
+    slides5[i].addEventListener("mouseover", function() {
+        slides5[i].src = "/Photos/timexhover2.png";
+    });
+    slides5[i].addEventListener("mouseout", function(){
+        slides5[i].src = originalSrc
+    })
+
+}
+
+let slides6 = document.getElementsByClassName("platinum");
+
+for (let i = 0; i < slides6.length; i++) {
+    let originalSrc = slides6[i].src
+    slides6[i].addEventListener("mouseover", function() {
+        slides6[i].src = "/Photos/timexhover3.png";
+    });
+    slides6[i].addEventListener("mouseout", function(){
+        slides6[i].src = originalSrc
+    })
+
+}
+
+let slides7 = document.getElementsByClassName("silver");
+
+for (let i = 0; i < slides7.length; i++) {
+    let originalSrc = slides7[i].src
+    slides7[i].addEventListener("mouseover", function() {
+        slides7[i].src = "/Photos/timexhover4.png";
+    });
+    slides7[i].addEventListener("mouseout", function(){
+        slides7[i].src = originalSrc
+    })
+
+}
+
 
 
 class Watch{

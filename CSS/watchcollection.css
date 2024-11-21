@@ -120,6 +120,7 @@ nav button:hover {
 
 }
 
+
 .rolexa{   
     height: 380px;
     width: 370px;      
@@ -145,12 +146,6 @@ nav button:hover {
     position: relative;
     top: 12px;
     left: 10px;
-}
-
-
-
-#roverlay{
-    
 }
 
 #roverlay:hover{
@@ -600,6 +595,48 @@ h2 span{
     transition: 0.25s;
     border: 2px goldenrod solid;
 }
+@media (max-width: 800px) {
+    #rolex{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 
 
+#contact{
+    position: relative;
+    top: 1100px;
+    left: 850px;
+}
+
+.contactus{
+    background-color: transparent;
+    height: 60px;
+    width: 350px;
+    position: relative;
+    right: 70px;
+    border: 2px goldenrod solid;
+    padding-left: 10px;
+}
+
+#contact-sub{
+    position: relative;
+    height: 55px;
+    width: 350px;
+    right: 70px;
+    background-color: goldenrod;
+    transition: background-color 0.3s ease, transfom 0.2s ease;
+}
+
+#contact-sub:hover{
+    background-color: rgb(96, 70, 3);
+}
+
+#ask-h2{
+    color: white;
+    position: relative;
+    bottom: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    left: 10px;
+}
